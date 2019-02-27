@@ -1,12 +1,35 @@
 body {
-    background-color:
+    background-color: lightgray;
 }
 
 .form-group {
-    margin-left: 500px;
+    margin-left: 400px;
     margin-top: 75px;
+    /*position: absolute;
 }
 
 #exampleRadios1 {
     margin-right: 20px;
+    /*position: absolute;*/
+}
+
+h1 {
+    margin-left:200px;
+    /*position: absolute;*/
+}
+
+#counter {
+    margin-left: 260px;
+    /*position: absolute;*/
+}
+
+/*#answers {
+    width: 700px;
+    height: 500px;
+    color: maroon;
+    background-color: moccasin;
+    margin-left: 600px;
+    margin-top: 300px;
+    position: fixed;
+    z-index: -1;
 }
