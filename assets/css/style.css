@@ -1,35 +1,35 @@
 body {
-    background-color: lightgray;
+    background: url(https://cdn2.vectorstock.com/i/1000x1000/70/06/seamless-pattern-colored-ice-cream-background-vector-15487006.jpg);
 }
 
-.form-group {
-    margin-left: 400px;
-    margin-top: 75px;
-    /*position: absolute;
-}
-
-#exampleRadios1 {
-    margin-right: 20px;
-    /*position: absolute;*/
+.question {
+    margin-left: 220px;
+    text-emphasis: bold;
 }
 
 h1 {
-    margin-left:200px;
-    /*position: absolute;*/
+    margin-left:350px;
+    margin-top: 50px;
 }
 
 #counter {
-    margin-left: 260px;
-    /*position: absolute;*/
+    margin-left: 340px;
 }
 
-/*#answers {
-    width: 700px;
-    height: 500px;
-    color: maroon;
-    background-color: moccasin;
-    margin-left: 600px;
-    margin-top: 300px;
-    position: fixed;
-    z-index: -1;
+#submit {
+    margin-left: 250px;
+    width: 200px;
+    height: 50px;
+    background-color: pink;
 }
+
+#square {
+    background-color: aquamarine;
+    width: 900px;
+    margin-left: 275px;
+}
+
+
+
+
+

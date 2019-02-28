@@ -1,80 +1,93 @@
 <html>
-    <head>
-        <title>Trivia Game</title>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    </head>
-    <body>
-<form>
-        <div id="counter"></div><br>
+<head>
+    <title>Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id=score>
+        <h2 id= "right"></h2>
+        <h2 id= "wrong"></h2>
+    </div>
+
+    <form>
+        <div id="square">
+        <h1>Ice Cream Quiz</h1><br>
+        <h2>
+            <div id="counter"></div>
+        </h2><br>
         <div class="question">
-            <p><strong>Q1</strong>: How many ice cream flavors are nationally recognized?</p>
+            <h3><strong>1) How many ice cream flavors are nationally recognized?</h3></strong>
             <label>
-                <input type="radio" name="one" value="a">Over 1,000</label>
+                <strong><input type="radio" name="one" value="a">Over 1,000</label></strong>
             <label>
-                <input type="radio" name="one" value="b">Over 500</label>
+                <strong><input type="radio" name="one" value="b">Over 500</label></strong>
             <label>
-                <input type="radio" name="one" value="c">Over 2,000</label>
+                <strong><input type="radio" name="one" value="c">Over 2,000</label></strong>
             <label>
-                <input type="radio" name="one" value="d">750</label>
-        </div>
+                <strong><input type="radio" name="one" value="d">750</label></strong>
+        </div><br>
         <div class="question">
-            <p><strong>Q2</strong>: Who was the first person to sell ice cream in the United States?</p>
+            <h3><strong>2) Who was the first person to sell ice cream in the United States?</h3></strong>
             <label>
-                <input type="radio" name="two" value="a">Ben Franklin</label>
+                <strong><input type="radio" name="two" value="a">Ben Franklin</label></strong>
             <label>
-                <input type="radio" name="two" value="b">Early street vendors in New York City</label>
+                <strong><input type="radio" name="two" value="b">Early street vendors in New York City</label></strong>
             <label>
-                <input type="radio" name="two" value="c">Quakers</label>
+                <strong><input type="radio" name="two" value="c">Quakers</label></strong>
             <label>
-                <input type="radio" name="two" value="d">Pilgrims</label>
-        </div>
+                <strong><input type="radio" name="two" value="d">Pilgrims</label></strong>
+        </div><br>
         <div class="question">
-            <p><strong>Q3</strong>: What is the most commonly ordered ice cream flavor?</p>
+            <h3><strong>3) What is the most commonly ordered ice cream flavor?</h3></strong>
             <label>
-                <input type="radio" name="three" value="a">Chocolate</label>
+                <strong><input type="radio" name="three" value="a">Chocolate</label></strong>
             <label>
-                <input type="radio" name="three" value="b">Strawberry</label>
+                <strong><input type="radio" name="three" value="b">Strawberry</label></strong>
             <label>
-                <input type="radio" name="three" value="c">Vanilla</label>
+                <strong><input type="radio" name="three" value="c">Vanilla</label></strong>
             <label>
-                <input type="radio" name="three" value="d">Mint Chip</label>
-        </div>
+                <strong><input type="radio" name="three" value="d">Mint Chip</label></strong>
+        </div><br>
         <div class="question">
-            <p><strong>Q4</strong>: When was the Waffle Cone Invented?</p>
+            <h3><strong>4) When was the Waffle Cone Invented?</h3></strong>
             <label>
-                <input type="radio" name="four" value="a">1870</label>
+                <strong><input type="radio" name="four" value="a">1870</label></strong>
             <label>
-                <input type="radio" name="four" value="b">1904</label>
+                <strong><input type="radio" name="four" value="b">1904</label></strong>
             <label>
-                <input type="radio" name="four" value="c">1800</label>
+                <strong><input type="radio" name="four" value="c">1800</label></strong>
             <label>
-                <input type="radio" name="four" value="d">1750</label>
-        </div>
+                <strong><input type="radio" name="four" value="d">1750</label></strong>
+        </div><br>
         <div class="question">
-            <p><strong>Q5</strong>: Where is the largest ice cream factory in the world?</p>
+            <h3><strong>5) Where is the largest ice cream factory in the world?</h3></strong>
             <label>
-                <input type="radio" name="five" value="a">France</label>
+                <strong><input type="radio" name="five" value="a">France</label></strong>
             <label>
-                <input type="radio" name="five" value="b">Germany</label>
+                <strong><input type="radio" name="five" value="b">Germany</label></strong>
             <label>
-                <input type="radio" name="five" value="c">United States</label>
+                <strong><input type="radio" name="five" value="c">United States</label></strong>
             <label>
-                <input type="radio" name="five" value="d">Japan</label>
-        </div>
+                <strong><input type="radio" name="five" value="d">Japan</label></strong>
+        </div><br>
         <div class="question">
-            <p><strong>Q6</strong>: What flavor of ice cream is the oldest of these options?</p>
+            <h3><strong>6) What flavor of ice cream is the oldest of these options?</h3></strong>
             <label>
-                <input type="radio" name="six" value="a">Mint Chip</label>
+                <strong><input type="radio" name="six" value="a">Mint Chip</label></strong>
             <label>
-                <input type="radio" name="six" value="b">Strawberry</label>
+                <strong><input type="radio" name="six" value="b">Strawberry</label></strong>
             <label>
-                <input type="radio" name="six" value="c">Vanilla</label>
+                <strong><input type="radio" name="six" value="c">Vanilla</label></strong>
             <label>
-                <input type="radio" name="six" value="d">Chocolate</label>
-        </div>        
-        <input type="submit"/>
+                <strong><input type="radio" name="six" value="d">Chocolate</label></strong>
+        </div> <br><br>
+        <input type="submit" id="submit">
     </form>
+</div>
     <script src="assets/js/app.js"></script>
 </body>
-    </html>
+
+</html>
